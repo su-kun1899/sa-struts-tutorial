@@ -139,7 +139,7 @@
         <property name="password">"xxxx"</property>
     </component>
 	-->
-	<!--
+
 	<component name="connectionPool"
 		class="org.seasar.extension.dbcp.impl.ConnectionPoolImpl">
 		<property name="timeout">600</property>
@@ -151,7 +151,6 @@
 	<component name="DataSource"
 		class="org.seasar.extension.dbcp.impl.DataSourceImpl"
 	/>
-	-->
 
 	<!-- from JNDI -->
 	<!--
