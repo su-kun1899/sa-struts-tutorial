@@ -11,8 +11,6 @@ import java.util.List;
 public class IndexAction {
     public List<Book> books;
 
-    public boolean error;
-
     @Resource
     private BookService bookService;
 
@@ -21,13 +19,10 @@ public class IndexAction {
 
     @Execute(validator = false)
     public String index() {
-        books = bookService.find(false);
-        books = bookService.findNewTransaction(false);
-//        try {
-//            books = bookService.findNewTransaction(error);
-//        } catch (Exception e) {
-//            System.out.println("握りつぶしてやる");
-//        }
+        // ①Action側でのトランザクション開始
+        books = bookService.find();
+        // ②新しいトランザクションを開く
+        books = bookService.findNewTransaction();
 
         return "index.jsp";
     }

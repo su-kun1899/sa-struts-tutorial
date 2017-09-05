@@ -1,6 +1,5 @@
 package tutorial.service;
 
-import org.seasar.extension.dbcp.ConnectionPool;
 import org.seasar.extension.jdbc.JdbcManager;
 import tutorial.entity.Book;
 
@@ -16,17 +15,15 @@ public class BookService extends ParentService{
     @Resource
     private JdbcManager jdbcManager;
 
-    @Resource
-    private ConnectionPool connectionPool;
+//    @Resource
+//    private ConnectionPool connectionPool;
 
     @TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
-    public List<Book> findNewTransaction(boolean error) {
-        final List<Book> books = this.jdbcManager.from(Book.class).getResultList();
-        return books;
+    public List<Book> findNewTransaction() {
+        return jdbcManager.from(Book.class).getResultList();
     }
 
-    public List<Book> find(boolean error) {
-        final List<Book> books = this.jdbcManager.from(Book.class).getResultList();
-        return books;
+    public List<Book> find() {
+        return jdbcManager.from(Book.class).getResultList();
     }
 }
