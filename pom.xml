@@ -8,7 +8,7 @@
     <name>sa-struts-tutorial</name>
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
-        <outputDirectory>src/main/webapp/WEB-INF/classes</outputDirectory>
+        <outputDirectory>target/classes</outputDirectory>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
