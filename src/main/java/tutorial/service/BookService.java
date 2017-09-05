@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author su-kun1899
  */
-public class BookService extends ParentService{
+public class BookService {
     @Resource
     private JdbcManager jdbcManager;
 
