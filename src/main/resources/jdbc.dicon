@@ -119,7 +119,7 @@
 			"com.mysql.jdbc.Driver"
 		</property>
 		<property name="URL">
-			"jdbc:mysql://localhost:13306/db_kp"
+			"jdbc:mysql://localhost:13306/sastruts_sample"
 		</property>
 		<property name="user">"root"</property>
 		<property name="password">""</property>
