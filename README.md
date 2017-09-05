@@ -79,4 +79,6 @@ http://localhost:8080/
 - Tomcat Home: `/usr/local/Cellar/tomcat@6/6.0.51/libexec`
 - Tomcat base directory: `/usr/local/Cellar/tomcat@6/6.0.51/libexec`
 
+![](https://raw.githubusercontent.com/su-kun1899/sa-struts-tutorial/master/.github/run_setting.png)
+![](https://github.com/su-kun1899/sa-struts-tutorial/blob/master/.github/tomcat_setting.png?raw=true)
 
