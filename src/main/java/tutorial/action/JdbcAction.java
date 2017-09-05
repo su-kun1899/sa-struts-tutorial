@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @author su-kun1899
  */
-public class SampleAction {
+public class JdbcAction {
     @Resource
     private BookService bookService;
 

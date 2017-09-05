@@ -52,7 +52,7 @@ Tomcatの設定はお済みですか?<br />
 <li><a href="protect/">保護されたページ</a></li>
 <li><a href="logout/">ログアウト</a></li>
 <li><a href="ajax/">Ajax</a></li>
-<li><a href="sample/">データベースの値を取得</a></li>
+<li><a href="jdbc/">データベースの値を取得</a></li>
 </ul>
 </body>
 </html>
