@@ -10,3 +10,5 @@ INSERT INTO sastruts_sample.book (isbn, title) VALUES (1, 'test');
 INSERT INTO sastruts_sample.book (isbn, title) VALUES (2, 'hoge');
 INSERT INTO sastruts_sample.book (isbn, title) VALUES (3, 'fuga');
 INSERT INTO sastruts_sample.book (isbn, title) VALUES (4, 'piyo');
+
+SELECT * from INFORMATION_SCHEMA.INNODB_TRX;
